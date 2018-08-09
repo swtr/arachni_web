@@ -1,11 +1,11 @@
 # arachni_web
 version: '3'
 services:
-    web:
+    ui:
         build: .
         ports:
             - '9292:9292'
-    postgres:
+    db:
         image: postgres:10.3
         environment:
             - POSTGRES_USER=arachni
