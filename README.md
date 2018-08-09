@@ -7,6 +7,9 @@ Arachni is a feature-full, modular, high-performance Ruby framework aimed toward
 ## Why
 The default sqlite deployment has many limitations as described on the arachni webui landing page. This image has been preconfigured to used postgres as the dateabase to overcome these limitations.
 
+## Official docs
+https://github.com/Arachni/arachni-ui-web/wiki
+
 ## versions
 `swtr/arachni_web:latest` - arachni framework v1.5.1 & webui v0.5.12
 
@@ -51,3 +54,7 @@ Manipulate as required by starting the image using `-e`. For example if you have
 # Licence
 All configuration files and scripts are licensed under the MIT license.
 
+# About Shearwater
+Shearwater is a specialist information security services provider. We address four of the key information security challenges confronting organisations today, the challenges of securing applications; managing security operations; maintaining compliance, and improving awareness and security education across the board. We provide a combination of integrated services and capabilities delivered through our highly experienced information security and risk professionals.
+
+https://www.shearwater.com.au/
