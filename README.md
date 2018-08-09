@@ -34,7 +34,7 @@ Pull Arachni
 
 Run Arachni and connect it to postgres
 
-`docker run -t --name arachni --link postgres -p 9292:9292 treadie/arachni`
+`docker run -t --name arachni --link postgres -p 9292:9292 swtr/arachni_web`
 
 ## Config info
 The database configuration settings for Arachni are configured by environment variables. By default they have been preconfigured with what comes out of the box from the Arachni developers. The variables of interest for this image are (with their default values):
