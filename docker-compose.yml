@@ -1,0 +1,13 @@
+# arachni_web
+version: '3'
+services:
+    web:
+        build: .
+        ports:
+            - '9292:9292'
+    postgres:
+        image: postgres:10.3
+        environment:
+            - POSTGRES_USER=arachni
+            - POSTGRES_PASS=secret
+            - POSTGRES_DB=arachni_production
